@@ -1,0 +1,36 @@
+.message {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.5);
+  border: 1px solid;
+  padding: 10px 30px;
+  padding-left: 10px;
+  line-height: 2;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  transition: 0.5s;
+  transform: translate(-50%, -50%) translateY(25px);
+  opacity: 0;
+  white-space: nowrap;
+}
+.message-info {
+  background: #6b9eee;
+}
+.message-error {
+  background: #cc3600;
+}
+.message-warn {
+  background: #dc6a12;
+}
+.message-success {
+  background: #7ebf50;
+}
+.icon {
+  margin-right: 7px;
+  font-size: 20px;
+}

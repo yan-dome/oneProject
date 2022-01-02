@@ -1,0 +1,40 @@
+{
+  "name": "my-one",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "testIcon": "vue serve ./src/tests/testIcon.vue",
+    "testPager": "vue serve ./src/tests/testPager.vue",
+    "testAvtatr": "vue serve ./src/tests/testAvtatr.vue",
+    "testEmpty": "vue serve ./src/tests/testEmpty.vue",
+    "testImagesLoader": "vue serve ./src/tests/testImagesLoader.vue",
+    "testContact": "vue serve ./src/tests/testContact.vue",
+    "testMenu": "vue serve ./src/tests/testMenu.vue",
+    "testSiteAside": "vue serve ./src/tests/testSiteAside.vue",
+    "testLayout": "vue serve ./src/tests/testLayout.vue",
+    "testLoading": "vue serve ./src/tests/testLoading.vue",
+    "testRightList": "vue serve ./src/views/Blog/components/RightList-test.vue"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "highlight.js": "^11.0.0",
+    "mock.js": "^0.2.0",
+    "mockjs": "^1.1.0",
+    "nprogress": "^0.2.0",
+    "querystring": "^0.2.1",
+    "vue": "^2.6.11",
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "vue-template-compiler": "^2.6.11",
+    "webpack-bundle-analyzer": "^4.4.2"
+  }
+}
